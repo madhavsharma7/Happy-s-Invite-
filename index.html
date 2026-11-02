@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy &amp; Rahul – Wedding Celebrations</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#1f0a1c;--ink:#f6ead3;--gold:#d9b25f;--mute:#c9b5a0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:20px/1.55 'Cormorant Garamond',Georgia,serif}
+.script{font-family:'Pinyon Script','Snell Roundhand',cursive;font-weight:400}
+.hero{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:48px 20px;background:radial-gradient(ellipse at 50% 30%,#4a1741 0,var(--bg) 70%);border-bottom:1px solid #d9b25f55}
+.hero p{margin:0;color:var(--mute);font-style:italic}
+.hero h1{margin:.1em 0 0;font-size:clamp(3.6rem,17vw,9rem);line-height:1.05;color:var(--gold)}
+.when{font-size:1.5rem;margin:.6em 0 1.2em}
+.count{display:flex;gap:clamp(14px,5vw,40px)}
+.count div{min-width:64px}.count b{display:block;font-size:2.2rem;font-weight:600;color:var(--gold)}.count span{font-size:.95rem;color:var(--mute)}
+.hero a.go{margin-top:2em;color:var(--ink);border:1px solid var(--gold);padding:.6em 1.6em;border-radius:999px;text-decoration:none}
+.hero a.go:hover,.hero a.go:focus-visible{background:var(--gold);color:var(--bg);outline:none}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;display:flex;gap:6px;justify-content:center;flex-wrap:wrap;padding:10px;background:#1f0a1cee;backdrop-filter:blur(6px)}
+nav a{color:var(--mute);text-decoration:none;padding:.2em .8em;border-radius:999px}
+nav a:hover,nav a:focus-visible{color:var(--bg);background:var(--gold);outline:none}
+.ev{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,6vw,80px);align-items:center;max-width:1000px;margin:0 auto;padding:72px 20px}
+.ev:nth-of-type(even) .media{order:2}
+.media{justify-self:center;width:100%;max-width:340px;border:2px solid var(--c);border-radius:180px 180px 14px 14px;overflow:hidden;background:#000}
+.media img,.media video{display:block;width:100%;height:auto}
+.ev h2{margin:0;font-size:clamp(2.6rem,8vw,4.2rem);color:var(--c);line-height:1.1}
+.ev .day{font-size:1.6rem;margin:.3em 0 0}
+.ev .time{color:var(--mute);margin:0 0 1em}
+.ev address{font-style:normal;color:var(--mute)}
+.ev a.map{display:inline-block;margin-top:.8em;color:var(--c)}
+footer{text-align:center;padding:72px 20px 56px;border-top:1px solid #d9b25f55;color:var(--mute)}
+footer h3{margin:0 0 .3em;font-size:3rem;color:var(--gold)}
+footer p{max-width:560px;margin:.6em auto}
+@media(max-width:720px){.ev{grid-template-columns:1fr;text-align:center;padding:56px 20px}.ev:nth-of-type(even) .media{order:0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body>
+<header class="hero">
+<p>Together with their families</p>
+<h1 class="script">Happy<br>&amp; Rahul</h1>
+<div class="when">Wedding on 11 December 2026 · Sonipat, Haryana</div>
+<div class="count" id="count" aria-live="off"><div><b>–</b><span>days</span></div><div><b>–</b><span>hours</span></div><div><b>–</b><span>minutes</span></div></div>
+<a class="go" href="#haldi">See the celebrations</a>
+</header>
+<nav aria-label="Events"><a href="#haldi">Haldi</a><a href="#mehendi">Mehendi</a><a href="#sangeet">Sangeet</a><a href="#wedding">Wedding</a></nav>
+
+<section class="ev" id="haldi" style="--c:#f2c94c">
+<div class="media"><video controls playsinline preload="metadata" poster="media/haldi-poster.jpg" src="media/haldi.mp4"></video></div>
+<div><h2 class="script">Haldi</h2><p class="day">Wednesday, 9 December 2026</p><p class="time">From 10:00 AM</p>
+<address>H. No. 31, New Chintpurni Colony,<br>Murthal Road, Sonipat</address>
+<a class="map" href="https://www.google.com/maps/search/?api=1&query=H.+No.+31+New+Chintpurni+Colony+Murthal+Road+Sonipat" target="_blank" rel="noopener">Open in Maps</a></div>
+</section>
+
+<section class="ev" id="mehendi" style="--c:#e8b4a8">
+<div class="media"><img src="media/mehendi.jpg" alt="Mehendi ceremony invitation: 9 December, 3 PM"></div>
+<div><h2 class="script">Mehendi</h2><p class="day">Wednesday, 9 December 2026</p><p class="time">From 3:00 PM</p>
+<address>H. No. 31, New Chintpurni Colony,<br>Murthal Road, Sonipat</address>
+<a class="map" href="https://www.google.com/maps/search/?api=1&query=H.+No.+31+New+Chintpurni+Colony+Murthal+Road+Sonipat" target="_blank" rel="noopener">Open in Maps</a></div>
+</section>
+
+<section class="ev" id="sangeet" style="--c:#d98ad0">
+<div class="media"><img src="media/sangeet.jpg" alt="Sangeet invitation: 10 December, 7 PM"></div>
+<div><h2 class="script">Sangeet</h2><p class="day">Thursday, 10 December 2026</p><p class="time">At 7:00 PM</p>
+<address>H. No. 31, New Chintpurni Colony,<br>Murthal Road, Sonipat</address>
+<a class="map" href="https://www.google.com/maps/search/?api=1&query=H.+No.+31+New+Chintpurni+Colony+Murthal+Road+Sonipat" target="_blank" rel="noopener">Open in Maps</a></div>
+</section>
+
+<section class="ev" id="wedding" style="--c:#d9b25f">
+<div class="media"><video controls playsinline preload="metadata" poster="media/wedding-poster.jpg" src="media/wedding.mp4"></video></div>
+<div><h2 class="script">The Wedding</h2><p class="day">Friday, 11 December 2026</p><p class="time">At 6:00 PM</p>
+<address><b>Aagman Garden and Banquet</b><br>865K, Murthal Road, Jeevan Vihar,<br>Sonipat, Haryana</address>
+<a class="map" href="https://www.google.com/maps/search/?api=1&query=Aagman+Garden+and+Banquet+Murthal+Road+Sonipat" target="_blank" rel="noopener">Open in Maps</a></div>
+</section>
+
+<footer>
+<h3 class="script">Happy &amp; Rahul</h3>
+<p>Daughter of Mr. Sunil Sharma &amp; Mrs. Suman<br>Son of Mr. Bijender Jangra &amp; Mrs. Raj Bala</p>
+<p>We would be delighted to have you celebrate with us.</p>
+</footer>
+<script>
+(function(){var t=new Date('2026-12-11T18:00:00+05:30'),b=document.querySelectorAll('#count b');
+function u(){var d=Math.max(0,t-new Date()),m=Math.floor(d/6e4);b[0].textContent=Math.floor(m/1440);b[1].textContent=Math.floor(m%1440/60);b[2].textContent=m%60}
+u();setInterval(u,3e4);
+var v=document.querySelectorAll('video');v.forEach(function(a){a.addEventListener('play',function(){v.forEach(function(o){if(o!==a)o.pause()})})});})();
+</script></body></html>
